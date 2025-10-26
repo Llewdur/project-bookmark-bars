@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Bookmarks</title>
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+  <div class="sidebar-container">
+    <header class="sidebar-header">
+      <h1>Project Bookmarks</h1>
+      <div class="header-buttons">
+        <button id="toggle-all-btn" class="btn-secondary btn-small" title="Toggle all bars">⊞⊟</button>
+        <button id="add-bar-btn" class="btn-primary" title="Add new bookmark bar">+ New Bar</button>
+      </div>
+    </header>
+
+    <div class="quick-actions">
+      <button id="add-current-tab-btn" class="btn-quick-action" title="Add current tab to active bar">
+        ⭐ Add Current Tab
+      </button>
+    </div>
+
+    <div id="bars-container" class="bars-container">
+      <!-- Bookmark bars will be rendered here -->
+    </div>
+
+    <div class="sidebar-footer">
+      <button id="export-btn" class="btn-text" title="Export all data">Export</button>
+      <button id="import-btn" class="btn-text" title="Import data">Import</button>
+    </div>
+  </div>
+
+  <!-- Add/Edit Bar Modal -->
+  <div id="bar-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="bar-modal-title">New Bookmark Bar</h2>
+      <input type="text" id="bar-name-input" placeholder="Enter bar name (e.g., Work, Personal)" maxlength="50">
+      <div class="modal-actions">
+        <button id="bar-modal-cancel" class="btn-secondary">Cancel</button>
+        <button id="bar-modal-save" class="btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add/Edit Bookmark Modal -->
+  <div id="bookmark-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="bookmark-modal-title">New Bookmark</h2>
+      <input type="text" id="bookmark-title-input" placeholder="Title" maxlength="100">
+      <input type="url" id="bookmark-url-input" placeholder="https://example.com">
+      <div class="modal-actions">
+        <button id="bookmark-modal-cancel" class="btn-secondary">Cancel</button>
+        <button id="bookmark-modal-save" class="btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="sidebar.js"></script>
+</body>
+</html>

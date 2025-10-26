@@ -1,0 +1,25 @@
+# Web-ext artifacts
+web-ext-artifacts/
+*.xpi
+*.zip
+
+# Node modules (if using web-ext)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+.web-ext-config.js
+
+# Development profiles
+dev-testing/
