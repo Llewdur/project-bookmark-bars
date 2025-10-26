@@ -242,7 +242,3 @@ Potential future features:
 - [ ] Keyboard shortcut to add current page
 - [ ] Bookmark folders/subgroups within bars
 - [ ] Custom themes and colours
-
----
-
-**Made with Claude Code** 🦊
