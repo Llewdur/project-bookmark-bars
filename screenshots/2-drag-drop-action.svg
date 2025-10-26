@@ -114,7 +114,7 @@
 
   <!-- Annotations -->
   <g id="annotations">
-    <text x="450" y="100" font-family="system-ui" font-size="16" font-weight="600" fill="#1a1a1a">Drag & Drop in Action</text>
+    <text x="450" y="100" font-family="system-ui" font-size="16" font-weight="600" fill="#1a1a1a">Drag &amp; Drop in Action</text>
 
     <!-- Arrow pointing to dragged item -->
     <line x1="430" y1="250" x2="380" y2="390" stroke="#0066cc" stroke-width="2" marker-end="url(#arrowblue)"/>
