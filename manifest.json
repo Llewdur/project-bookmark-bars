@@ -65,7 +65,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "project-bookmark-bars@mozilla.org",
+      "id": "project-bookmark-bars@llewdurandt.gmail.com",
       "strict_min_version": "109.0"
     }
   },
